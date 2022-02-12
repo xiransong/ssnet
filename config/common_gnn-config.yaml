@@ -1,0 +1,27 @@
+model: some_model
+train_dl: block_train_dl
+# train_dl: edge_sample_train_dl
+loss_fn: do_nothing_loss_passer
+optimizer: adam
+
+# config for train_dl
+train_batch_size: 1024
+
+# config for base_emb_table
+base_emb_table_device: 'cuda:0'
+emb_dim: 64
+embs_lr: 0.005
+gnn_lr: 0.001
+use_sparse_emb: 1
+
+# config for gnn
+device: 'cuda:0'
+
+num_gcn_layer: 1
+
+# config for trainer
+convergence_threshold: 3
+val_freq: 1
+epochs: 100
+
+str_set: ''
