@@ -28,4 +28,4 @@ instance_Pokec
 
 ## Model running
 
-To run a model (e.g. PPRGo): modify the data path `ALL_DATA_ROOT` in the script `Script/run_pprgo.sh`, check other configurations of the model, and run `bash Script/run_pprgo.sh`.
+To run a model (e.g. PPRGo): modify the data path `ALL_DATA_ROOT` in the script `Script/run_pprgo.sh`, check other configurations of the model, and run `cd Script; bash run_pprgo.sh`.
