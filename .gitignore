@@ -2,4 +2,6 @@
 __pycache__/
 *.py[cod]
 
+Script_Local
+
 nohup.out

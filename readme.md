@@ -1,6 +1,7 @@
 # Friend Recommendations with Self-Rescaling Graph Neural Networks
 
-This is an implementation for our KDD 2022 paper submission.
+* This is an implementation for our KDD 2022 paper: *Friend Recommendations with Self-Rescaling Graph Neural Networks*.
+* Contact: xiransong@hust.edu.cn
 
 ## Dependencies
 
