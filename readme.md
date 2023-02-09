@@ -7,9 +7,11 @@
 
 The dependencies are listed in `requirements.txt`.
 
-## Data format
+## Dataset
 
-For a dataset (e.g. Pokec), the files needed are as follows:
+The Pokec and LiveJournal dataset can be downloaded from here: https://drive.google.com/file/d/1MGIQyZwZQgIMn53ih6wulcrTaraxHFin/view?usp=sharing. The Xbox dataset is an industrial dataset and is not able to be public.
+
+For a dataset (e.g. Pokec), the files included are as follows:
 
 ```
 instance_Pokec
@@ -29,4 +31,7 @@ instance_Pokec
 
 ## Model running
 
-To run a model (e.g. PPRGo): modify the data path `ALL_DATA_ROOT` in the script `Script/run_pprgo.sh`, check other configurations of the model, and run `cd Script; bash run_pprgo.sh`.
+The scripts to run all the models are in the `Script` directory.
+
+To run a model, please modify the path `PROJECT_ROOT` and `ALL_DATA_ROOT` in the script, and run `bash run_xxx.sh`.
+Note that prerequisite data are needed before running some models. (E.g. first run PPR to generate top-k neighbors, then run the PPRGo model.)
