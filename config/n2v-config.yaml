@@ -1,13 +1,7 @@
-# data_root: /media/xreco/DEV/xiran/data/dgl_gnn_link_pred/graph/xbox300k
-# results_root: /media/xreco/DEV/xiran/data/new-n2v-64/debug
-
-# data_root: /media/xreco/DEV/xinhao/xbox_gamepass_wkflow/xfriend_auto_pipeline/output/instances_3m_und_e0_dl3_du100_hop4
-# results_root: /media/xreco/DEV/xiran/data/3m_und_e0_dl3_du100_hop4/n2v-test
-
 dim: 64
 
-epochs: 50
-convergence_threshold: 1
+epochs: 10
+convergence_threshold: 2
 
 alpha_schedule:
   - 
